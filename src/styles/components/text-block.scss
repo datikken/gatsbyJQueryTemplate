@@ -1,0 +1,22 @@
+$pb: .5rem;
+$defaultFont: 'Source Sans Pro', sans-serif;
+
+.text-block {
+    .text-block__inner {
+        .text-block__inner-heading {
+            color: black;
+            h1 {
+                margin: 0;
+                margin-bottom: $pb!important;
+                font-family: $defaultFont;
+            }
+        }
+        .text-block__inner-description {
+            color: black;
+            p {
+                font-size: 14px;
+                font-family: $defaultFont;
+            }
+        }
+    }
+}

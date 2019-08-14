@@ -1,0 +1,35 @@
+//typography
+$h1: 2rem;
+$p: 14px;
+//fonts
+$defaultFont: 'Source Sans Pro', sans-serif;
+//paddings
+$pb: .5rem;
+//coinIcon
+$ci: 25px;
+
+.join-game {
+    &__wrapper {
+        background: white;
+    }
+    &__heading {
+        word-break: break-word;
+        font-size: $p;
+    }
+    &__content {
+        &-item {
+            &--heading {
+                color: black;
+            }
+            &--value {
+                &__icon {
+                    img {
+                        width: $ci;
+                        height: $ci;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}

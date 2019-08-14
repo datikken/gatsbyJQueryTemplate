@@ -1,0 +1,23 @@
+$defaultFont: 'Source Sans Pro', sans-serif;
+
+.logo {
+    &__wrapper {
+
+    }
+    &__heading {
+        h1 {
+            margin: 0;
+            font-family: $defaultFont;
+            font-size: 2rem;
+            color: black;
+        }
+    }
+    &__description {
+        p {
+            font-family: $defaultFont;
+            font-weight: 400;
+            font-size: 14px;
+            color: black;
+        }
+    }
+}

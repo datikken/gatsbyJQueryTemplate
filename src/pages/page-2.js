@@ -1,15 +1,15 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+//Components
+import TextBlock from '../components/text_block/text_block';
+import JoinGame from '../components/joinGame/joinGame';
+
+import '../styles/main.scss';
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="Page two" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    <TextBlock/>
+    <JoinGame/>
   </Layout>
 )
 
